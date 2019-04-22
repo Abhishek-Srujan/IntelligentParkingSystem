@@ -16,7 +16,7 @@ This folder implement the Leshan Client.
 We have modified the code in the path : "IoT Source Code\leshan-client-example\src\main\java\org\eclipse\leshan\client\example" where we have implemented the read, write and execute functions of all the objects as per the requirement and integrated the python implementation of SenseHat to Java. The code is also updated in order to enable Firmware updation over the air.
 
 -> oma-objects-spec.json 
-This json object needs to stored in the path "leshan-master\leshan-core\src\main\resources\oma-objects-spec.json" which implements the client objects according to the specification provided through Project Proposal.
+This json object needs to be stored in the path "leshan-master\leshan-core\src\main\resources\oma-objects-spec.json" which implements the client objects according to the specification provided through Project Proposal.
 
 -> IoT
 This is the Web Server that uses the Leshan Server’s REST API. The main purpose of this server is build frontend of the Parking Lot. The server is built over Apache Tomcat. The servlets used and its uses as follows:
